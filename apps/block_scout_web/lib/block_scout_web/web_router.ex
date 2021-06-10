@@ -157,6 +157,13 @@ defmodule BlockScoutWeb.WebRouter do
       )
 
       resources(
+        "/verify-via-sourcify",
+        AddressContractVerificationViaSourcifyController,
+        only: [:new],
+        as: :verify_contract_via_sourcify
+      )
+
+      resources(
         "/read-contract",
         AddressReadContractController,
         only: [:index, :show],

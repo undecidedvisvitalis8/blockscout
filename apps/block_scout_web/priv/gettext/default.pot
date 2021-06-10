@@ -264,9 +264,10 @@ msgid "Call Code"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/address_contract_verification/new.html.eex:88
+#: lib/block_scout_web/templates/address_contract_verification/new.html.eex:105
 #: lib/block_scout_web/templates/address_contract_verification_via_flattened_code/new.html.eex:305
 #: lib/block_scout_web/templates/address_contract_verification_via_json/new.html.eex:56
+#: lib/block_scout_web/templates/address_contract_verification_via_sourcify/new.html.eex:56
 #: lib/block_scout_web/templates/api_docs/_action_tile.html.eex:47
 #: lib/block_scout_web/templates/api_docs/_eth_rpc_item.html.eex:54
 msgid "Cancel"
@@ -303,6 +304,7 @@ msgstr ""
 #: lib/block_scout_web/templates/address_contract_verification/new.html.eex:4
 #: lib/block_scout_web/templates/address_contract_verification_via_flattened_code/new.html.eex:13
 #: lib/block_scout_web/templates/address_contract_verification_via_json/new.html.eex:4
+#: lib/block_scout_web/templates/address_contract_verification_via_sourcify/new.html.eex:4
 msgid "Connection Lost"
 msgstr ""
 
@@ -343,6 +345,7 @@ msgstr ""
 #: lib/block_scout_web/templates/address_contract_verification/new.html.eex:18
 #: lib/block_scout_web/templates/address_contract_verification_via_flattened_code/new.html.eex:27
 #: lib/block_scout_web/templates/address_contract_verification_via_json/new.html.eex:13
+#: lib/block_scout_web/templates/address_contract_verification_via_sourcify/new.html.eex:13
 #: lib/block_scout_web/views/address_view.ex:102
 msgid "Contract Address"
 msgstr ""
@@ -1020,9 +1023,10 @@ msgid "Loading..."
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/address_contract_verification/new.html.eex:69
+#: lib/block_scout_web/templates/address_contract_verification/new.html.eex:78
 #: lib/block_scout_web/templates/address_contract_verification_via_flattened_code/new.html.eex:299
 #: lib/block_scout_web/templates/address_contract_verification_via_json/new.html.eex:50
+#: lib/block_scout_web/templates/address_contract_verification_via_sourcify/new.html.eex:50
 msgid "Loading...."
 msgstr ""
 
@@ -1099,6 +1103,7 @@ msgstr ""
 #: lib/block_scout_web/templates/address_contract_verification/new.html.eex:9
 #: lib/block_scout_web/templates/address_contract_verification_via_flattened_code/new.html.eex:18
 #: lib/block_scout_web/templates/address_contract_verification_via_json/new.html.eex:9
+#: lib/block_scout_web/templates/address_contract_verification_via_sourcify/new.html.eex:9
 msgid "New Smart Contract Verification"
 msgstr ""
 
@@ -1229,6 +1234,7 @@ msgstr ""
 #:
 #: lib/block_scout_web/templates/address_contract_verification_via_flattened_code/new.html.eex:302
 #: lib/block_scout_web/templates/address_contract_verification_via_json/new.html.eex:53
+#: lib/block_scout_web/templates/address_contract_verification_via_sourcify/new.html.eex:53
 msgid "Reset"
 msgstr ""
 
@@ -1590,6 +1596,7 @@ msgstr ""
 #:
 #: lib/block_scout_web/templates/address_contract_verification_via_flattened_code/new.html.eex:301
 #: lib/block_scout_web/templates/address_contract_verification_via_json/new.html.eex:52
+#: lib/block_scout_web/templates/address_contract_verification_via_sourcify/new.html.eex:52
 msgid "Verify & publish"
 msgstr ""
 
@@ -2772,6 +2779,7 @@ msgstr ""
 #, elixir-format
 #:
 #: lib/block_scout_web/templates/address_contract_verification_via_json/new.html.eex:30
+#: lib/block_scout_web/templates/address_contract_verification_via_sourcify/new.html.eex:30
 msgid "Drop sources and metadata JSON file or click here"
 msgstr ""
 
@@ -2781,14 +2789,16 @@ msgid "Flattened source code"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/address_contract_verification/new.html.eex:72
-#: lib/block_scout_web/templates/address_contract_verification/new.html.eex:79
+#: lib/block_scout_web/templates/address_contract_verification/new.html.eex:81
+#: lib/block_scout_web/templates/address_contract_verification/new.html.eex:88
+#: lib/block_scout_web/templates/address_contract_verification/new.html.eex:96
 msgid "Next"
 msgstr ""
 
 #, elixir-format
 #:
 #: lib/block_scout_web/templates/address_contract_verification_via_json/new.html.eex:23
+#: lib/block_scout_web/templates/address_contract_verification_via_sourcify/new.html.eex:23
 msgid "Sources and Metadata JSON"
 msgstr ""
 
@@ -2800,4 +2810,9 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/address_contract/index.html.eex:33
 msgid "This contract has been verified via Sourcify."
+msgstr ""
+
+#, elixir-format
+#: lib/block_scout_web/templates/address_contract_verification/new.html.eex:45
+msgid "Sourcify: Sources and metadata JSON file"
 msgstr ""
